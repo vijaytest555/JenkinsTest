@@ -34,14 +34,14 @@ formatter.match({
   "location": "GooglePage.to_launch_google_page()"
 });
 formatter.result({
-  "duration": 7441331277,
+  "duration": 12350290946,
   "status": "passed"
 });
 formatter.match({
   "location": "GooglePage.clink_on_language_links()"
 });
 formatter.result({
-  "duration": 13582147452,
+  "duration": 14393895062,
   "status": "passed"
 });
 });
