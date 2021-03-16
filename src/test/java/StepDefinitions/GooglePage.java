@@ -41,6 +41,7 @@ public class GooglePage {
     	
   //  	Driver.get(ReadProperty.get_propValue("URL"));
     	Driver = DriverManager.getDriver();
+    	
 		
 	   
 	}
@@ -59,6 +60,8 @@ public class GooglePage {
     //	Assert.assertEquals("The SessionM Platform", Pgtitle);
     	log.info("Pg title validatd successfully");
     	test.log(LogStatus.PASS,Pgtitle+" "+"Page title recieved as expected");
+    	log.info("test message");
+    
     	//the below line is important to generate Extent Report
     	report.flush();
 	

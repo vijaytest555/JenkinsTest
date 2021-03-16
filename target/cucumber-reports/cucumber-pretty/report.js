@@ -34,15 +34,14 @@ formatter.match({
   "location": "GooglePage.to_launch_google_page()"
 });
 formatter.result({
-  "duration": 7272428912,
+  "duration": 12350290946,
   "status": "passed"
 });
 formatter.match({
   "location": "GooglePage.clink_on_language_links()"
 });
 formatter.result({
-  "duration": 11658011182,
-  "error_message": "java.lang.NullPointerException\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy14.click(Unknown Source)\r\n\tat StepDefinitions.GooglePage.clink_on_language_links(GooglePage.java:53)\r\n\tat ✽.Then clink on language links(GooglePage.feature:7)\r\n",
-  "status": "failed"
+  "duration": 14393895062,
+  "status": "passed"
 });
 });
